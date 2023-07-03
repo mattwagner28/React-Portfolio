@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background-color: black;
     margin: 0 0;
+    height: 600px;
 }
 
 /* Header and navbar fixed at the top of the site */
@@ -235,6 +236,18 @@ nav a:active {
 #contact a:active {
   color: lightskyblue;
 }
+
+/*Footer*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
 
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {

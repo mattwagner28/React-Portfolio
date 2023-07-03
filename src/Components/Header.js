@@ -1,8 +1,8 @@
 import Navigation from "./Navigation";
 
-function Header() {
+function Header( {setSection} ) {
     return (
-        <Navigation />
+        <Navigation setSection={setSection} />
     )
 }
 
