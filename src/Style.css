@@ -198,10 +198,8 @@ nav a:active {
 }
  
 .info-text {
-  align-items: center;
-  color: white;
-  width: 40%;
   text-align: center;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -212,6 +210,15 @@ nav a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 200px;
+}
+
+#contact label {
+  color: white;
+}
+
+.error {
+  color: red;
 }
 
 #contact h2 {
@@ -240,6 +247,7 @@ nav a:active {
 /*Footer*/
 footer {
   position: fixed;
+  height: 100px;
   left: 0;
   bottom: 0;
   width: 100%;

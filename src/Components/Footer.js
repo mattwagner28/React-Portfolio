@@ -1,8 +1,7 @@
 
 function Footer() {
   return (
-    <footer id="contact">
-      <h2 className="sectiontitle">CONTACT</h2>
+    <footer>
       <p className="info-text">
         E-Mail:{" "}
         <a href="matthewwagner@outlook.com">matthewwagner@outlook.com</a> |
