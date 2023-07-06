@@ -13,3 +13,8 @@ Please feel free to git clone from my repository, and install node dependencies 
 
 
 [Untitled_ Jul 6, 2023 10_50 AM.webm](https://github.com/mattwagner28/React-Portfolio/assets/121985800/51cf2c76-6bf1-4ae3-bf78-0e5a2f093ff9)
+
+
+# Deployed Heroku App
+https://mattwagnerreactportfolio-42e3d846835c.herokuapp.com/matthewwagner@outlook.com
+
