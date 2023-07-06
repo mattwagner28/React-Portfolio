@@ -1,3 +1,6 @@
+import GitHubIcon from './GitHub-Mark.png';
+import LinkedInIcon from './linkedin-mark.png';
+import InstagramIcon from './Instagram_icon.png.webp';
 
 function Footer() {
   return (
@@ -10,25 +13,25 @@ function Footer() {
       <div id="socialmedia-icons">
         <a href="https://github.com/mattwagner28">
           <img
-            src="../GitHub-Mark.png"
-            width="50px"
-            height="50px"
+            src={GitHubIcon}
+            width="30px"
+            height="30px"
             alt="GitHub"
           />
         </a>
         <a href="https://www.linkedin.com/in/matthewtwagner">
           <img
-            src="../../public/linkedin-mark.png"
-            width="50px"
-            height="50px"
+            src={LinkedInIcon}
+            width="30px"
+            height="30px"
             alt="LinkedIn"
           />
         </a>
         <a href="https://www.instagram.com/matt_wagner_/">
           <img
-            src="../Instagram_icon.png.webp"
-            width="50px"
-            height="50px"
+            src={InstagramIcon}
+            width="30px"
+            height="30px"
             alt="Instagram"
           />
         </a>

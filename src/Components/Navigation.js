@@ -1,4 +1,5 @@
 function Navigation({ setSection }) {
+  
   const handleClick = (selectedSection) => {
     setSection(selectedSection);
   };
@@ -21,6 +22,11 @@ function Navigation({ setSection }) {
           <li>
             <a onClick={() => handleClick("contact")} href="#contact">
               contact
+            </a>
+          </li>
+          <li>
+            <a onClick={() => handleClick("resume")} href="#resume">
+              resume
             </a>
           </li>
         </ul>

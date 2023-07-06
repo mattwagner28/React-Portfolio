@@ -144,64 +144,83 @@ nav a:active {
 
  /* Portfolio Section */
 
+ .portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 200px;
+ }
+
  .sectiontitle {
   width: 100%;
+  align-items: ;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: 20px 0;
-  padding-top: 10px;
+  padding-top: 10000px;
 }
 
-
-#projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.card h3 {
+  position: absolute;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  visibility: hidden;
 }
-
 .card {
   display: flex;
   justify-content: center;
   width: 30%;
   height: 250px;
-  background-color: purple;
-  margin: 20px auto;
-  background-image: url("./codelaptop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.card h3 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  visibility: hidden;
-}
 
 .card:hover h3 {
   visibility: visible;
 }
 
 /* About section */
-#portfolio {
-  margin-top: 70px;
-}
 
 #about {
+  padding-top: 100px ;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.mattphoto {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  background-color: purple;
+  margin: 20px auto;
+  margin-bottom: 200px;
+  background-image: url("./portfoliopic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #about .sectiontitle {
   padding: 0;
 }
  
+.bio {
+  margin-top: 16px;
+  width: 40%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+
 .info-text {
+  margin-top: 8px;
   text-align: center;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 12px;
 }
 
 /* Contact section */
@@ -244,16 +263,77 @@ nav a:active {
   color: lightskyblue;
 }
 
+/*Resume*/
+#resume-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+
+#resume-link {
+  color: white;
+}
+
+#resume-section a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#resume-section a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#resume-section a:hover {
+  background-color: white;
+  color: black;
+}
+
+#resume-section a:active {
+  color: lightskyblue;
+}
+
+#resume-section h3 {
+  color: white;
+}
+
+.skills {
+  color: white;
+}
+
 /*Footer*/
 footer {
   position: fixed;
-  height: 100px;
+  height: 50px;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: black;
   padding: 20px;
+  padding-top: 0px;
   text-align: center;
+  border-top-style: dotted;
+  border-top-color: white;
+}
+
+footer a:link {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: white;
+  color: black;
+}
+
+footer a:active {
+  color: lightskyblue;
 }
 
 
